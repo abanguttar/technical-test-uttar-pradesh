@@ -2,6 +2,30 @@
 
 Ini adalah project untuk Technical Test dari PT Mega Harapan Mulia (Kelas.com).
 
+## Installation
+
+Clone Git Project
+
+```bash
+  git clone https://github.com/abanguttar/technical-test-uttar-pradesh.git
+  cd technical-test-uttar-pradesh
+```
+
+Install Composer
+
+```bash
+composer Install
+```
+
+Copy .env and run migration
+
+```bash
+cp .env.example .env
+php artisan key:generate
+php artisan migrate
+php artisan serve
+```
+
 ## API Reference
 
 #### Endpoint untuk menghitung dan mengembalikan hasil pembagian kepada mentor berdasarkan durasi waktu tonton.
