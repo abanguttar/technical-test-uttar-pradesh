@@ -66,7 +66,7 @@ class UserClassWatchTimeController extends Controller
             Cache::put($key_inc, 1, Carbon::now()->addDays(1));
             return response()->json([
                 'success' => true,
-                'message' => 'ok'
+                'message' => 'success insert data!'
             ], 201);
         }
 
@@ -93,7 +93,7 @@ class UserClassWatchTimeController extends Controller
         Cache::increment($key_inc);
         return response()->json([
             'success' => true,
-            'message' => 'ok'
+            'message' => 'success update data!'
         ], 200);
     }
 }

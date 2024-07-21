@@ -14,7 +14,13 @@ Ini adalah project untuk Technical Test dari PT Mega Harapan Mulia (Kelas.com).
 | :---------- | :------- | :--------------------------------------------------------------------------------------------------------------------- |
 | `monthDate` | `string` | **Required**. Untuk test ini tidak required, jika dikosongkan maka nilai monthDate default adalah 2024-07 (Juli 2024). |
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+<h6>Success Response 200 OK</h6>
+
+![Logo](/public/assets/api-response/response-success.png)
+
+<h6>Not Found Response 400</h6>
+
+![Logo](/public/assets/api-response/response-not-found.png)
 
 #### Endpoint untuk mencatat waktu tonton pengguna.
 
@@ -26,3 +32,11 @@ Ini adalah project untuk Technical Test dari PT Mega Harapan Mulia (Kelas.com).
 | :-------- | :-------- | :----------------------------------------- |
 | `user_id` | `integer` | **Required**. user_id harus berupa angka.  |
 | `clas_id` | `integer` | **Required**. class_id harus berupa angka. |
+
+<h6>Insert Response 201 OK</h6>
+
+![Logo](/public/assets/api-response/response-insert.png)
+
+<h6>Update Response 200 OK</h6>
+
+![Logo](/public/assets/api-response/response-update.png)
