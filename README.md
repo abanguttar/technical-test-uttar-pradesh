@@ -23,6 +23,17 @@ Copy .env and run migration
 cp .env.example .env
 php artisan key:generate
 php artisan migrate
+```
+
+Copy data from Seeder
+
+```bash
+php artisan db:seed DatabaseSeeder
+```
+
+Run
+
+```bash
 php artisan serve
 ```
 
